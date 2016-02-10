@@ -3,7 +3,10 @@ package ca.maciorowski.maciorowski.railapp;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+<<<<<<< HEAD
 import android.content.Intent;
+=======
+>>>>>>> ecbae40e3e1fffa11689593d97b2bb6459c14a61
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -30,6 +33,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+<<<<<<< HEAD
 import com.firebase.client.ChildEventListener;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
@@ -41,6 +45,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+=======
+import java.util.ArrayList;
+import java.util.List;
+>>>>>>> ecbae40e3e1fffa11689593d97b2bb6459c14a61
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -71,17 +79,25 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
+<<<<<<< HEAD
     private User user;
     private Firebase mFirebaseRef;
+=======
+>>>>>>> ecbae40e3e1fffa11689593d97b2bb6459c14a61
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
 
         setContentView(R.layout.activity_login);
         // Set up the login form.
 
 
+=======
+        setContentView(R.layout.activity_login);
+        // Set up the login form.
+>>>>>>> ecbae40e3e1fffa11689593d97b2bb6459c14a61
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
 
@@ -107,10 +123,15 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
+<<<<<<< HEAD
         Firebase.setAndroidContext(this);
     }
 
 
+=======
+    }
+
+>>>>>>> ecbae40e3e1fffa11689593d97b2bb6459c14a61
     private void populateAutoComplete() {
         if (!mayRequestContacts()) {
             return;
@@ -204,6 +225,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             showProgress(true);
             mAuthTask = new UserLoginTask(email, password);
             mAuthTask.execute((Void) null);
+<<<<<<< HEAD
 
             signInUser(email, password);
 
@@ -273,6 +295,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     }
 */
 
+=======
+        }
+    }
+
+>>>>>>> ecbae40e3e1fffa11689593d97b2bb6459c14a61
     private boolean isEmailValid(String email) {
         //TODO: Replace this with your own logic
         return email.contains("@");

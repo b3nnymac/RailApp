@@ -69,6 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+<<<<<<< HEAD
                 android:text="Sign in"
                 android:textStyle="bold" />
 
@@ -80,6 +81,11 @@
                 android:text="Large Text"
                 android:id="@+id/userEmail" />
 
+=======
+                android:text="@string/action_sign_in"
+                android:textStyle="bold" />
+
+>>>>>>> ecbae40e3e1fffa11689593d97b2bb6459c14a61
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/RailApp-master.iml" filepath="$PROJECT_DIR$/RailApp-master.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/RailApp.iml" filepath="$PROJECT_DIR$/RailApp.iml" />
+>>>>>>> ecbae40e3e1fffa11689593d97b2bb6459c14a61
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
